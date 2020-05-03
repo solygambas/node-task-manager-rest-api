@@ -1,1 +1,4 @@
-[{"title":"Buy bananas","body":"I want to make banana cake"}]
+[
+  { "title": "Buy bananas", "body": "I want to make banana cake" },
+  { "title": "Buy coca cola", "body": "soda soda" }
+]
