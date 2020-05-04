@@ -11,20 +11,20 @@
 require("dotenv").config();
 const request = require("request");
 
-const token = process.env.TOKEN;
-const mapboxUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/Montpellier.json?access_token=${token}&limit=1`;
+// const token = process.env.TOKEN;
+// const mapboxUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/Montpellier.json?access_token=${token}&limit=1`;
 
-request({ url: mapboxUrl, json: true }, (error, response, body) => {
-  if (error) {
-    console.log("Unable to connect to geocoding service!");
-  } else if (body.features.length === 0) {
-    console.log("Unable to find location! Try another search.");
-  } else {
-    const latitude = body.features[0].center[1];
-    const longitude = body.features[0].center[0];
-    console.log(`${latitude}, ${longitude}`);
-  }
-});
+// request({ url: mapboxUrl, json: true }, (error, response, body) => {
+//   if (error) {
+//     console.log("Unable to connect to geocoding service!");
+//   } else if (body.features.length === 0) {
+//     console.log("Unable to find location! Try another search.");
+//   } else {
+//     const latitude = body.features[0].center[1];
+//     const longitude = body.features[0].center[0];
+//     console.log(`${latitude}, ${longitude}`);
+//   }
+// });
 
 // const apikey = process.env.API_KEY;
 // const url = `http://api.weatherstack.com/current?access_key=${apikey}&query=Montpellier`;
@@ -40,3 +40,24 @@ request({ url: mapboxUrl, json: true }, (error, response, body) => {
 //     );
 //   }
 // });
+
+const geocode = require("./utils/geocode");
+const forecast = require("./utils/forecast");
+const city = process.argv[2];
+
+if (!city) {
+  return console.log("Please provide a city.");
+}
+
+geocode(city, (error, { latitude, longitude, location }) => {
+  if (error) {
+    return console.log(error);
+  }
+  forecast(latitude, longitude, (error, forecastData) => {
+    if (error) {
+      return console.log(error);
+    }
+    console.log(location);
+    console.log(forecastData);
+  });
+});
