@@ -1,7 +1,41 @@
-h1 {
-  color: grey;
+body {
+  color: #333;
+  font-family: arial;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-img {
+.main-weather {
+  flex-grow: 1;
+}
+
+.footer-weather {
+  color: #888;
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+.header-weather {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.header-weather a {
+  color: #888;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.portrait-image {
   width: 250px;
 }
