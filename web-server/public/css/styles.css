@@ -39,3 +39,16 @@ h1 {
 .portrait-image {
   width: 250px;
 }
+
+#weather-input {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+
+#weather-button {
+  cursor: pointer;
+  border: 1px solid #888;
+  background: #888;
+  color: white;
+  padding: 0.5rem;
+}
