@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "nodemon src/app.js -e js,hbs",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
