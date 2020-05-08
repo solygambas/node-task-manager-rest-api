@@ -51,11 +51,25 @@ app.listen(port, () => console.log(`Server is up at http://localhost:${port}`));
 // };
 // myFunction();
 
-const pet = { name: "Hal" };
+// const pet = { name: "Hal" };
 
-pet.toJSON = function () {
-  console.log(this);
-  return {};
-};
+// pet.toJSON = function () {
+//   console.log(this);
+//   return {};
+// };
 
-console.log(JSON.stringify(pet));
+// console.log(JSON.stringify(pet));
+
+// const Task = require("./models/task");
+// const User = require("./models/user");
+
+// const main = async () => {
+//   const task = await Task.findById("5eb53793a1040641c49181e9");
+//   await task.populate("owner").execPopulate();
+//   console.log(task.owner);
+//   const user = await User.findById("5eb53672fb7e8440ac29741e");
+//   await user.populate("tasks").execPopulate();
+//   console.log(user.tasks);
+// };
+
+// main();
