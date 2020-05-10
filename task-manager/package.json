@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "env-cmd -f dev.env nodemon src/index.js",
     "start": "node src/index",
-    "test": "env-cmd -f test.env jest --watch"
+    "test": "env-cmd -f test.env jest --watch --runInBand"
   },
   "jest": {
     "testEnvironment": "node"
