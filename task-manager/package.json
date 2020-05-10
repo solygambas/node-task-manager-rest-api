@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "env-cmd nodemon src/index.js",
+    "watch": "env-cmd -f dev.env nodemon src/index.js",
     "start": "node src/index",
-    "test": "jest"
+    "test": "env-cmd -f test.env jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +28,7 @@
   "devDependencies": {
     "env-cmd": "^10.1.0",
     "jest": "^23.6.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "supertest": "^3.4.1"
   }
 }
