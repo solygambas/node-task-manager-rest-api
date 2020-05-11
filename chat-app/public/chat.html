@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="chat">
-      <div class="chat__sidebar"></div>
+      <div id="sidebar" class="chat__sidebar"></div>
       <div class="chat__main">
         <div id="messages" class="chat__messages"></div>
         <!-- <button id="increment">+1</button> -->
@@ -20,6 +20,8 @@
               name="message"
               placeholder="Message"
               type="text"
+              required
+              autocomplete="off"
             />
             <button id="chat-button">Send</button>
           </form>
@@ -30,16 +32,26 @@
 
     <script id="message-template" type="text/html">
       <div class="message">
-        <p><span class="message__name">Username</span>
+        <p><span class="message__name">{{username}}</span>
           <span class="message__meta">{{createdAt}}</span></p>
         <p>{{message}}</p></div>
     </script>
 
     <script id="location-template" type="text/html">
       <div class="message">
-        <p><span class="message__name">Username</span>
+        <p><span class="message__name">{{username}}</span>
           <span class="message__meta">{{createdAt}}</span></p>
         <p><a href="{{url}}" target="_blank" rel="noopener noreferrer">My current location</a></p></div>
+    </script>
+
+    <script id="sidebar-template" type="text/html">
+      <h2 class="room-title">{{room}}</h2>
+      <h3 class="list-title">Users</h3>
+      <ul class="users">
+          {{#users}}
+              <li>{{username}}</li>
+          {{/users}}
+      </ul>
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
