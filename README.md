@@ -15,7 +15,34 @@ A simple CLI note-taking application to understand Node.js basics.
 - watching for changes in development mode with nodemon.
 - debugging Node.js with debugger, node inspect and Chrome inspector.
 
+## 2) Weather App
+
+A weather app using Express, Handlebars templates, fetch API and callbacks.
+
+[See weather-app folder for the first part](https://github.com/solygambas/node-complete-developer-course/tree/master/weather-app)
+
+[See web-server folder for the final project](https://github.com/solygambas/node-complete-developer-course/tree/master/web-server)
+
+[See Demo](https://node-weather-fetch.herokuapp.com/)
+
+![](screenshot.png)
+
+### Features
+- making http requests in Node.js with request.
+- protecting Weatherstack and Mapbox API keys with dotenv.
+- using JSON Formatter in Chrome to work with JSON data.
+- handling errors.
+- using callbacks and callback chaining to make asynchronous requests.
+- serving up HTML, JSON and static assets with Express.
+- creating dynamic pages with Handlebars and hbs.
+- styling the app with flexbox.
+- accessing JSON HTTP endpoint from browser with fetch API.
+- handling search by location for current weather.
+- deploying on Heroku.
+
 ## 4) Chat App
+
+A simple chat room app to work with WebSocket protocol.
 
 [See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
 

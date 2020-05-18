@@ -1,5 +1,7 @@
 # Chat App
 
+A simple chat room app to work with WebSocket protocol.
+
 [See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
 
 ![](screenshot.png)
