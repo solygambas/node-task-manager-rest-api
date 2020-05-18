@@ -7,8 +7,16 @@
     "watch": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/node-complete-developer-course.git"
+  },
+  "author": "solygambas",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solygambas/node-complete-developer-course/issues"
+  },
+  "homepage": "https://github.com/solygambas/node-complete-developer-course#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "nodemon": "^1.18.5",

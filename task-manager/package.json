@@ -12,8 +12,16 @@
     "testEnvironment": "node"
   },
   "keywords": [],
-  "author": "",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/node-complete-developer-course.git"
+  },
+  "author": "solygambas",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solygambas/node-complete-developer-course/issues"
+  },
+  "homepage": "https://github.com/solygambas/node-complete-developer-course#readme",
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
     "bcryptjs": "^2.4.3",

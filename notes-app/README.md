@@ -1,12 +1,8 @@
-# The Complete Node.js Developer Course: Projects
-
-## 1) Notes App
+# Notes App
 
 A simple CLI note-taking application to understand Node.js basics.
 
-[See notes-app folder](/notes-app)
-
-### Features
+## Features
 - handling Command Line Args (add, remove, list, read) and options (--title, --body) with Yargs.
 - writing JSON files with JSON.stringify() and fs.writeFileSync().
 - reading JSON files with fs.readFileSync(), toString() and JSON.parse().
