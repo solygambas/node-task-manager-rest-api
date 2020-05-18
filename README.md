@@ -1,6 +1,11 @@
 # The Complete Node.js Developer Course: Projects
 
-## 1) Notes App
+1. [**Notes App**](#notes-app): A simple CLI note-taking application to understand Node.js basics.
+2. [**Weather App**](#weather-app): A weather app using Express, Handlebars templates, fetch API and callbacks.
+3. [**Task App**](#task-app):
+4. [**Chat App**](#chat-app): A simple chat room app to work with WebSocket protocol. 
+
+## <a name="notes-app"></a>1) Notes App
 
 A simple CLI note-taking application to understand Node.js basics.
 
@@ -15,7 +20,7 @@ A simple CLI note-taking application to understand Node.js basics.
 - watching for changes in development mode with nodemon.
 - debugging Node.js with debugger, node inspect and Chrome inspector.
 
-## 2) Weather App
+## <a name="weather-app"></a>2) Weather App
 
 A weather app using Express, Handlebars templates, fetch API and callbacks.
 
@@ -23,9 +28,9 @@ A weather app using Express, Handlebars templates, fetch API and callbacks.
 
 [See web-server folder for the final project](https://github.com/solygambas/node-complete-developer-course/tree/master/web-server)
 
-[See Demo](https://node-weather-fetch.herokuapp.com/)
+[See Demo deployed on Heroku](https://node-weather-fetch.herokuapp.com/)
 
-![](screenshot.png)
+![](web-server/screenshot.png)
 
 ### Features
 - making http requests in Node.js with request.
@@ -40,13 +45,13 @@ A weather app using Express, Handlebars templates, fetch API and callbacks.
 - handling search by location for current weather.
 - deploying on Heroku.
 
-## 4) Chat App
+## <a name="chat-app"></a>4) Chat App
 
 A simple chat room app to work with WebSocket protocol.
 
-[See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
-
 [See chat-app folder](https://github.com/solygambas/node-complete-developer-course/tree/master/chat-app)
+
+[See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
 
 ![](chat-app/screenshot.png)
 
