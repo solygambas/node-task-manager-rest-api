@@ -55,7 +55,7 @@ A task manager REST API using Express, MongoDB and Mongoose.
 
 [See REST API deployed on Heroku](https://node-api-restful.herokuapp.com/)
 
-## Features
+### Features
 - performing CRUD operations (create, read, update, delete) using MongoDB.
 - using promises and async/await method.
 - modeling data with Mongoose.
