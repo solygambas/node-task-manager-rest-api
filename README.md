@@ -1,8 +1,10 @@
 # The Complete Node.js Developer Course: Projects
 
+This repo is made of 4 projects:
+
 1. [**Notes App**](#notes-app): A simple CLI note-taking application to understand Node.js basics.
 2. [**Weather App**](#weather-app): A weather app using Express, Handlebars templates, fetch API and callbacks.
-3. [**Task App**](#task-app):
+3. [**Task App**](#task-app): A task manager REST API using Express, MongoDB and Mongoose. 
 4. [**Chat App**](#chat-app): A simple chat room app to work with WebSocket protocol. 
 
 ## <a name="notes-app"></a>1) Notes App
@@ -44,6 +46,30 @@ A weather app using Express, Handlebars templates, fetch API and callbacks.
 - accessing JSON HTTP endpoint from browser with fetch API.
 - handling search by location for current weather.
 - deploying on Heroku.
+
+## <a name="task-app"></a>3) Task App
+
+A task manager REST API using Express, MongoDB and Mongoose.
+
+[See task-manager folder](https://github.com/solygambas/node-complete-developer-course/tree/master/task-manager)
+
+[See REST API deployed on Heroku](https://node-api-restful.herokuapp.com/)
+
+## Features
+- performing CRUD operations (create, read, update, delete) using MongoDB.
+- using promises and async/await method.
+- modeling data with Mongoose.
+- validating user data with validator.
+- enabling REST API routes (post, get, patch, delete) with Express.
+- adding registered users to MongoDB and hashing passwords with bcryptjs.
+- storing the user/task relationship.
+- granting access to the API with JSON Web Tokens.
+- testing routes with Postman environment variables.
+- adding timestamps to sort data, filtering completed/uncompleted tasks and enabling pagination.
+- managing file uploads for user avatar with multer and sharp.
+- sending subscribe/unsubscribe emails with Sendgrid.
+- writing tests with Jest and supertest using mocks and fixtures.
+- deploying on Heroku and MongoDB Atlas.
 
 ## <a name="chat-app"></a>4) Chat App
 
