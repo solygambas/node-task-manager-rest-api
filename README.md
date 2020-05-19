@@ -58,7 +58,7 @@ A task manager REST API using Express, MongoDB and Mongoose.
 ### Features
 - performing CRUD operations (create, read, update, delete) using MongoDB.
 - using promises and async/await method.
-- modelling data with Mongoose.
+- modeling data with Mongoose.
 - validating user data with validator.
 - enabling REST API routes (post, get, patch, delete) with Express.
 - adding registered users to MongoDB and hashing passwords with bcryptjs.
