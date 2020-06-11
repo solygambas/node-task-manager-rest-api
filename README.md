@@ -32,7 +32,11 @@ A weather app using Express, Handlebars templates, fetch API and callbacks.
 
 [See Demo deployed on Heroku](https://node-weather-fetch.herokuapp.com/)
 
-![](web-server/screenshot.png)
+<p align="center">
+  <a href="https://node-weather-fetch.herokuapp.com/">
+    <img src="web-server/screenshot.png" alt="See Demo deployed on Heroku">
+  </a>
+</p>
 
 ### Features
 - making http requests in Node.js with request.
@@ -79,7 +83,11 @@ A simple chat room app to work with WebSocket protocol.
 
 [See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
 
-![](chat-app/screenshot.png)
+<p align="center">
+  <a href="https://node-chat-rooms-app.herokuapp.com/">
+    <img src="chat-app/screenshot.png" alt="See Demo deployed on Heroku">
+  </a>
+</p>
 
 ### Features
 - handling realtime communication between web clients and server with Socket.IO.
