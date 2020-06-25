@@ -9,16 +9,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-   "repository": {
+  "repository": {
     "type": "git",
-    "url": "git+https://github.com/solygambas/node-complete-developer-course.git"
+    "url": "git+https://github.com/solygambas/node-task-manager-rest-api.git"
   },
   "author": "solygambas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/solygambas/node-complete-developer-course/issues"
+    "url": "https://github.com/solygambas/node-task-manager-rest-api/issues"
   },
-  "homepage": "https://github.com/solygambas/node-complete-developer-course#readme",
+  "homepage": "https://github.com/solygambas/node-task-manager-rest-api#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.16.4",

@@ -1,10 +1,11 @@
 # Weather App (part 1)
 
-An introduction to asynchronous Node.js with callbacks. 
+An introduction to asynchronous Node.js with callbacks.
 
-[See web-server folder for the final project](https://github.com/solygambas/node-complete-developer-course/tree/master/web-server)
+[See web-server folder for the final project](https://github.com/solygambas/node-task-manager-rest-api/tree/master/web-server)
 
 ## Features
+
 - making http requests in Node.js with request.
 - protecting Weatherstack and Mapbox API keys with dotenv.
 - using JSON Formatter in Chrome to work with JSON data.
