@@ -1,11 +1,13 @@
 # Task App and Node.js projects
 
-This repo is made of 4 projects:
+A task manager REST API using MongoDB, Mongoose and Express (plus 3 other Node.js projects).
 
-1. [**Notes App**](#notes-app): A simple CLI note-taking application to understand Node.js basics.
-2. [**Weather App**](#weather-app): A weather app using Express, Handlebars templates, fetch API and callbacks.
-3. [**Task App**](#task-app): A task manager REST API using Express, MongoDB and Mongoose.
-4. [**Chat App**](#chat-app): A simple chat room app to work with WebSocket protocol.
+| #   | Project                           | Description                                           |
+| --- | --------------------------------- | ----------------------------------------------------- |
+| 01  | [**Notes App**](#notes-app) | A simple CLI note-taking application to understand Node.js basics.               |
+| 02  | [**Weather App**](#weather-app)        | A weather app using Express, Handlebars templates, fetch API and callbacks.           |
+| 03  | [**Task App**](#task-app)     | A task manager REST API using Express, MongoDB and Mongoose.                                 |
+| 04  | [**Chat App**](#chat-app)    | A simple chat room app to work with WebSocket protocol.                     | 
 
 ## <a name="notes-app"></a>1) Notes App
 
