@@ -2,7 +2,7 @@
 
 A weather app using Express, Handlebars templates, fetch API and callbacks.
 
-[See weather-app folder for the first part](https://github.com/solygambas/node-task-manager-rest-api/tree/master/weather-app)
+[See weather-app folder for the first part](../weather-app)
 
 [See Demo deployed on Heroku](https://node-weather-fetch.herokuapp.com/)
 

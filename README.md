@@ -2,18 +2,18 @@
 
 A task manager REST API using MongoDB, Mongoose and Express (plus 3 other Node.js projects).
 
-| #   | Project                           | Description                                           |
-| --- | --------------------------------- | ----------------------------------------------------- |
-| 01  | [**Notes App**](#notes-app) | A simple CLI note-taking application to understand Node.js basics.               |
-| 02  | [**Weather App**](#weather-app)        | A weather app using Express, Handlebars templates, fetch API and callbacks.           |
-| 03  | [**Task App**](#task-app)     | A task manager REST API using Express, MongoDB and Mongoose.                                 |
-| 04  | [**Chat App**](#chat-app)    | A simple chat room app to work with WebSocket protocol.                     | 
+| #   | Project                         | Description                                                                 |
+| --- | ------------------------------- | --------------------------------------------------------------------------- |
+| 01  | [**Notes App**](#notes-app)     | A simple CLI note-taking application to understand Node.js basics.          |
+| 02  | [**Weather App**](#weather-app) | A weather app using Express, Handlebars templates, fetch API and callbacks. |
+| 03  | [**Task App**](#task-app)       | A task manager REST API using Express, MongoDB and Mongoose.                |
+| 04  | [**Chat App**](#chat-app)       | A simple chat room app to work with WebSocket protocol.                     |
 
 ## <a name="notes-app"></a>1) Notes App
 
 A simple CLI note-taking application to understand Node.js basics.
 
-[See notes-app folder](https://github.com/solygambas/node-task-manager-rest-api/tree/master/notes-app)
+[See notes-app folder](notes-app)
 
 ### Features
 
@@ -29,9 +29,9 @@ A simple CLI note-taking application to understand Node.js basics.
 
 A weather app using Express, Handlebars templates, fetch API and callbacks.
 
-[See weather-app folder for the first part](https://github.com/solygambas/node-task-manager-rest-api/tree/master/weather-app)
+[See weather-app folder for the first part](weather-app)
 
-[See web-server folder for the final project](https://github.com/solygambas/node-task-manager-rest-api/tree/master/web-server)
+[See web-server folder for the final project](web-server)
 
 [See Demo deployed on Heroku](https://node-weather-fetch.herokuapp.com/)
 
@@ -59,7 +59,7 @@ A weather app using Express, Handlebars templates, fetch API and callbacks.
 
 A task manager REST API using Express, MongoDB and Mongoose.
 
-[See task-manager folder](https://github.com/solygambas/node-task-manager-rest-api/tree/master/task-manager)
+[See task-manager folder](task-manager)
 
 [See REST API deployed on Heroku](https://node-api-restful.herokuapp.com/)
 
@@ -84,7 +84,7 @@ A task manager REST API using Express, MongoDB and Mongoose.
 
 A simple chat room app to work with WebSocket protocol.
 
-[See chat-app folder](https://github.com/solygambas/node-task-manager-rest-api/tree/master/chat-app)
+[See chat-app folder](chat-app)
 
 [See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
 
