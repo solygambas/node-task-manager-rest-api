@@ -33,11 +33,11 @@ A weather app using Express, Handlebars templates, fetch API and callbacks.
 
 [See web-server folder for the final project](web-server)
 
-[See Demo deployed on Heroku](https://node-weather-fetch.herokuapp.com/)
+[See Demo deployed on Render](https://node-weather-fetch.onrender.com/)
 
 <p align="center">
-  <a href="https://node-weather-fetch.herokuapp.com/">
-    <img src="web-server/screenshot.png" alt="See Demo deployed on Heroku">
+  <a href="https://node-weather-fetch.onrender.com/">
+    <img src="web-server/screenshot.png" alt="See Demo deployed on Render">
   </a>
 </p>
 
@@ -53,7 +53,7 @@ A weather app using Express, Handlebars templates, fetch API and callbacks.
 - styling the app with flexbox.
 - accessing JSON HTTP endpoint from browser with fetch API.
 - handling search by location for current weather.
-- deploying on Heroku.
+- deploying on Render.
 
 ## <a name="task-app"></a>3) Task App
 
@@ -61,7 +61,7 @@ A task manager REST API using Express, MongoDB and Mongoose.
 
 [See task-manager folder](task-manager)
 
-[See REST API deployed on Heroku](https://node-api-restful.herokuapp.com/)
+[See REST API deployed on Render](https://node-api-restful.onrender.com/)
 
 ### Features
 
@@ -78,7 +78,7 @@ A task manager REST API using Express, MongoDB and Mongoose.
 - managing file uploads for user avatar with multer and sharp.
 - sending subscribe/unsubscribe emails with Sendgrid.
 - writing tests with Jest and supertest using mocks and fixtures.
-- deploying on Heroku and MongoDB Atlas.
+- deploying on Render and MongoDB Atlas.
 
 ## <a name="chat-app"></a>4) Chat App
 
@@ -86,11 +86,11 @@ A simple chat room app to work with WebSocket protocol.
 
 [See chat-app folder](chat-app)
 
-[See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
+[See Demo deployed on Render](https://node-chat-rooms-app.onrender.com/)
 
 <p align="center">
-  <a href="https://node-chat-rooms-app.herokuapp.com/">
-    <img src="chat-app/screenshot.png" alt="See Demo deployed on Heroku">
+  <a href="https://node-chat-rooms-app.onrender.com/">
+    <img src="chat-app/screenshot.png" alt="See Demo deployed on Render">
   </a>
 </p>
 

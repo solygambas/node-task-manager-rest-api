@@ -2,11 +2,12 @@
 
 A simple chat room app to work with WebSocket protocol.
 
-[See Demo deployed on Heroku](https://node-chat-rooms-app.herokuapp.com/)
+[See Demo deployed on Render](https://node-chat-rooms-app.onrender.com/)
 
 ![](screenshot.png)
 
 ## Features
+
 - handling realtime communication between web clients and server with Socket.IO.
 - sending messages with emit() and waiting for messages with on().
 - managing chat rooms with socket.join and io.to.emit().
